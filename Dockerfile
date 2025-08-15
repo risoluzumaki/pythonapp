@@ -5,7 +5,7 @@ FROM python:3.12-slim
 WORKDIR /app
 
 # Copy requirements.txt dulu kalau ada (lebih cepat build)
-COPY requirements.txt .
+COPY requirement.txt .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
