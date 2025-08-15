@@ -8,7 +8,7 @@ WORKDIR /app
 COPY requirement.txt .
 
 # Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirement.txt
 
 # Copy semua kode aplikasi
 COPY . .
